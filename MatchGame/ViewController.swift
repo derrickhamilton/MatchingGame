@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var movesMadeLbl: UILabel!
     @IBOutlet weak var movesLeftLbl: UILabel!
+    var gameModel = GameModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
