@@ -73,7 +73,7 @@ class GameModel {
         var tempArr = [Node]()
         while (count < 20) {
             let tempNode = Node(new_emoji: emojiShuffled[count])
-            if (count % 4 == 0 && count != 0) {
+            if (count % 4 == 3 && count != 0) {
                 tempArr.append(tempNode)
                 gameBoard.append(tempArr)
                 tempArr.removeAll()
@@ -84,5 +84,15 @@ class GameModel {
         }
     }
     
+    func flipCard(cardNumber: Int) -> String {
+        var card = getNode(index: cardNumber)
+        card.flipped = true
+        return card.emoji
+    }
     
+    func getNode(index: Int) -> Node {
+        let row = index / 4
+        let col = index % 4
+        return gameBoard[row][col]
+    }
 }

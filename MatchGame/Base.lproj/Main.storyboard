@@ -56,178 +56,178 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XE7-jm-l1s">
                                 <rect key="frame" x="10" y="54" width="81.5" height="112.5"/>
-                                <state key="normal" title="1" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0046821489726027394" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vab-xX-ayd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtW-SQ-HST">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtW-SQ-HST">
                                 <rect key="frame" x="101.5" y="54" width="81" height="112.5"/>
-                                <state key="normal" title="2" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0046821489726027394" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7tH-rM-wpd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auO-zA-lAy">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auO-zA-lAy">
                                 <rect key="frame" x="192.5" y="54" width="81.5" height="112.5"/>
-                                <state key="normal" title="3" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FPT-cm-HPV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9U-jT-Hxj">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9U-jT-Hxj">
                                 <rect key="frame" x="284" y="54" width="81" height="112.5"/>
-                                <state key="normal" title="4" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0046821489726027394" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nJ7-o6-nbO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqD-MX-z68">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqD-MX-z68">
                                 <rect key="frame" x="10" y="176.5" width="81.5" height="112.5"/>
-                                <state key="normal" title="5" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLA-6h-XmB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyg-QD-0TG">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyg-QD-0TG">
                                 <rect key="frame" x="101.5" y="176.5" width="81" height="112.5"/>
-                                <state key="normal" title="6" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k1F-U7-Hug"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f36-Lx-GG6">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f36-Lx-GG6">
                                 <rect key="frame" x="192.5" y="176.5" width="81.5" height="112.5"/>
-                                <state key="normal" title="7" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjU-FU-uLG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhA-gC-RzS">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhA-gC-RzS">
                                 <rect key="frame" x="284" y="176.5" width="81" height="112.5"/>
-                                <state key="normal" title="8" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UX4-RW-xYg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-Yb-ytk">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-Yb-ytk">
                                 <rect key="frame" x="10" y="299" width="81.5" height="113"/>
-                                <state key="normal" title="9" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVE-br-nKG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh3-QQ-Enf">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh3-QQ-Enf">
                                 <rect key="frame" x="101.5" y="299" width="81" height="113"/>
-                                <state key="normal" title="10" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCr-TQ-Nd8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSE-XU-l1i">
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSE-XU-l1i">
                                 <rect key="frame" x="192.5" y="299" width="81.5" height="113"/>
-                                <state key="normal" title="11" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CdM-P3-cKs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnL-HI-3UN">
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnL-HI-3UN">
                                 <rect key="frame" x="284" y="299" width="81" height="113"/>
-                                <state key="normal" title="12" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6N-4g-hD1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAz-R2-EPE">
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAz-R2-EPE">
                                 <rect key="frame" x="10" y="422" width="81.5" height="112.5"/>
-                                <state key="normal" title="13" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gx0-8t-hnb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoJ-gN-b7p">
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoJ-gN-b7p">
                                 <rect key="frame" x="101.5" y="422" width="81" height="112.5"/>
-                                <state key="normal" title="14" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MnA-KP-W5x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwj-vH-Sjt">
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwj-vH-Sjt">
                                 <rect key="frame" x="192.5" y="422" width="81.5" height="112.5"/>
-                                <state key="normal" title="15" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rif-QH-Lk3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcT-Fy-uM2">
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcT-Fy-uM2">
                                 <rect key="frame" x="284" y="422" width="81" height="112.5"/>
-                                <state key="normal" title="16" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0046821489726027394" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="va9-9Y-UuA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jM-KM-4cc">
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jM-KM-4cc">
                                 <rect key="frame" x="10" y="544.5" width="81.5" height="112.5"/>
-                                <state key="normal" title="17" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uhc-ev-3qs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foN-nE-WXI">
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foN-nE-WXI">
                                 <rect key="frame" x="101.5" y="544.5" width="81" height="112.5"/>
-                                <state key="normal" title="18" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BMg-Mb-2tX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFh-gj-SXW">
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFh-gj-SXW">
                                 <rect key="frame" x="192.5" y="544.5" width="81.5" height="112.5"/>
-                                <state key="normal" title="19" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xNk-jN-fth"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHl-J8-w9m">
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHl-J8-w9m">
                                 <rect key="frame" x="284" y="544.5" width="81" height="112.5"/>
-                                <state key="normal" title="20" backgroundImage="images">
+                                <state key="normal" backgroundImage="images">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>

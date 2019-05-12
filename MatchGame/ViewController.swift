@@ -20,7 +20,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func flipCard(_ sender: UIButton) {
-    
+        let btnNumberInt = sender.tag
+        let emoji = gameModel.flipCard(cardNumber: btnNumberInt)
+        
+        sender.setTitle(emoji, for: .normal)
+        sender.setImage(nil, for: .normal)
+        sender.setTitleColor(UIColor.black, for: .normal)
     }
     
     override func didReceiveMemoryWarning() {
