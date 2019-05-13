@@ -38,12 +38,10 @@ extension Sequence {
 struct Node {
     var emoji: String
     var matched: Bool
-    var flipped: Bool
     
     init(new_emoji: String) {
         emoji = new_emoji
         matched = false
-        flipped = false
     }
 }
 
@@ -53,7 +51,7 @@ class GameModel {
     var gameBoard = [[Node]]()
     var movesLeft: Int
     var matchesMade: Int
-    
+
     init() {
         movesLeft = 20
         matchesMade = 0
@@ -84,9 +82,24 @@ class GameModel {
         }
     }
     
+    func checkMatch(flippedCards: (Int, Int)) -> Bool {
+        var first = getNode(index: flippedCards.0)
+        var second = getNode(index: flippedCards.1)
+        
+        let firstEmoji = first.emoji
+        let secondEmoji = second.emoji
+        
+        if (firstEmoji != secondEmoji) {
+            return false
+        } else {
+            first.matched = true
+            second.matched = true
+            return true
+        }
+    }
+    
     func flipCard(cardNumber: Int) -> String {
-        var card = getNode(index: cardNumber)
-        card.flipped = true
+        let card = getNode(index: cardNumber)
         return card.emoji
     }
     
