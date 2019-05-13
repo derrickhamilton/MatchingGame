@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Darwin
 
 class ViewController: UIViewController {
 
@@ -49,11 +50,32 @@ class ViewController: UIViewController {
             let match = gameModel.checkMatch(flippedCards: cards)
             if (!match) {
                 unflipCards(first: cards.0, second: cards.1)
+            } else {
+                movesMadeLbl.text = "\(gameModel.getMatchesMade())"
             }
             
             // Unset flippedCards
             flippedCards.0 = nil
             flippedCards.1 = nil
+        }
+        
+        let movesLeft = gameModel.getMovesLeft()
+        movesLeftLbl.text = "\(movesLeft)"
+        
+        if (movesLeft == 0) {
+            var message: String
+            if (!gameModel.checkResult()) {
+                message = "You lost :("
+            } else {
+                message = "You win!"
+            }
+            
+            let alert = UIAlertController(title: message, message: "Would you like to play again?", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
+            alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: { action in self.endGame() }))
+            
+            self.present(alert, animated: true)
         }
     }
     
@@ -81,6 +103,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func endGame() {
+        exit(0)
+    }
 }
 

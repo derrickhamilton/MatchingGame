@@ -53,7 +53,7 @@ class GameModel {
     var matchesMade: Int
 
     init() {
-        movesLeft = 20
+        movesLeft = 40
         matchesMade = 0
         
         // Initialize the emoji array
@@ -78,7 +78,7 @@ class GameModel {
             } else {
                 tempArr.append(tempNode)
             }
-            count = count + 1
+            count += 1
         }
     }
     
@@ -94,18 +94,41 @@ class GameModel {
         } else {
             first.matched = true
             second.matched = true
+            matchesMade += 1
             return true
         }
     }
     
     func flipCard(cardNumber: Int) -> String {
         let card = getNode(index: cardNumber)
+        movesLeft -= 1
         return card.emoji
+    }
+    
+    func checkResult() -> Bool {
+        for i in gameBoard {
+            for j in i {
+                if (!j.matched) {
+                    return false
+                }
+            }
+        }
+        
+        // All nodes are matched
+        return true
     }
     
     func getNode(index: Int) -> Node {
         let row = index / 4
         let col = index % 4
         return gameBoard[row][col]
+    }
+    
+    func getMatchesMade() -> Int {
+        return matchesMade
+    }
+    
+    func getMovesLeft() -> Int {
+        return movesLeft
     }
 }
